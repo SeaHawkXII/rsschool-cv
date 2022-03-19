@@ -38,7 +38,7 @@ I'm currently studying front-end development. Completed projects:
 
 ## Education
 * **Komsomolsk-On-Amur State University** (by correspondence), 2006-2009: Computer software and automated systems.
-* **Petrozavodsk State University** (by correspondence), 2010-2013: Information systems and technologies
+* **Petrozavodsk State University** (by correspondence), 2010-2013: Information systems and technologies.
 
 ## Languages
 * **Russian** – Native
