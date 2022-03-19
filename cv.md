@@ -33,7 +33,7 @@ I'm currently studying front-end development. Completed projects:
 * [Current CV](https://seahawkxii.github.io/rsschool-cv/cv)
 ## Education
 **Komsomolsk-On-Amur State University** (by correspondence), 2006-2009: Computer software and automated systems.
-**Petrozavodsk State University** (by correspondence), 2010-2013. Information systems and technologies
+**Petrozavodsk State University** (by correspondence), 2010-2013: Information systems and technologies
 ## Languages
 **Russian** – Native
 **English** – A1 (I keep learning every day)
