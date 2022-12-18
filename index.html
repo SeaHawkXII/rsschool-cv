@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Arkadiy Ivanov</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About myself</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="section" id="profile">
+        <h1>Arkadiy Ivanov</h1>
+        <img src="avatar.jpg" alt="avatar" width="200" height="200">
+      </section>
+      <section class="section" id="contacts">
+        <h2>Contacts</h2>
+          <ul>
+            <li><b>Location:</b> Russia, Karelia, Petrozavodsk</li>
+            <li><b>Discord:</b> Sea_hawk#8866</li>
+            <li><b>GitHub:</b> <a href="https://github.com/SeaHawkXII">SeaHawkXII</a></li>
+          </ul>
+      </section>
+      <section class="section" id="about">
+        <h2>About myself</h2>
+        I'm 33 years old. Novice front-end developer. Currently studying at Rolling Scopes School. I know HTML, CSS, JavaScript. I also know programming languages: Java, C#. In the future, I plan to learn React and then Node.js.
+      </section>
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git (GitHub)</li>
+          <li>Java</li>
+          <li>C#</li>
+          <li>Windows OS</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2>Code example</h2>
+        <pre><code>    function highAndLow(numbers) {
+            let arrNums = numbers.split(' ');
+            let maxN = arrNums[0];
+            let minN = arrNums[0];
+            for (let i = 1; i &lt; arrNums.length; i++) {
+              if (+arrNums[i] &gt; maxN)
+                maxN = +arrNums[i];
+              if (+arrNums[i] &lt; minN)
+                minN = +arrNums[i];
+            }
+            return `${maxN} ${minN}`;
+          }
+        </code></pre>
+      </section>
+      <section class="section" id="experience">
+        <h2>Experience</h2>
+        I'm currently studying front-end development. Completed projects:
+        <ul>
+          <li><a href="https://seahawkxii.github.io/rsschool-cv">Current CV</a></li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <ul>
+          <li><b>Komsomolsk-On-Amur State University</b> (by correspondence), 2006-2009: Computer software and automated systems.</li>
+          <li><b>Petrozavodsk State University</b> (by correspondence), 2010-2013: Information systems and technologies.</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li><b>Russian</b> – Native</li>
+          <li><b>English</b> – A1 (I keep learning every day)</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      © 2022 <a href="https://github.com/SeaHawkXII">SeaHawkXII</a>
+    </div>
+  </footer>
+</body>
+</html>
